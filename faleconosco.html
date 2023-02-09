@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="faleconosco.css" />
+        <title>Contattaci - Panetteria di Napoli</title>
+    </head>
+    <body>
+        <h1 class="title">
+            Panetteria di Napoli <br />
+            Contattaci
+        </h1>
+        <h3 class="subtitle">Richiesta Speciale</h3>
+
+        <div class="menuContainer">
+            <ul class="centerMenu">
+                <li>
+                    <a href="index.html">Página Inicial</a>
+                </li>
+                <li>
+                    <a href="produtos.html">Produtos</a>
+                </li>
+                <li>
+                    <a href="faleconosco.html">Fale Conosco</a>
+                </li>
+            </ul>
+        </div>
+
+        <br />
+
+        <form>
+            <fieldset>
+                <legend>Pedido Especial</legend>
+
+                <label>Nome</label>
+                <input type="text" required autofocus class="nome" name="nome" />
+
+                <label>CPF</label>
+                <input type="text" required placeholder="XXX.XXX.XXX-XX" name="cpf" class="cpf" />
+
+                <label>Sexo</label>
+                <select name="sexo" id="sexo">
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="naodizer">Prefiro Não Dizer</option>
+                </select>
+
+                <label>Endereço</label>
+                <input type="text" class="endereço" required />
+                <br />
+                <br />
+                <label class="pedido">Pedido</label>
+                <textarea name="pedido" id="pedido" cols="30" rows="12">
+Coloque aqui o seu pedido.</textarea
+                >
+            </fieldset>
+            <br />
+            <fieldset>
+                <div class="center">
+                    <button>Clear</button>
+                    <button>Submit</button>
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>
