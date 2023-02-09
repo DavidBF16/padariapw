@@ -15,4 +15,3 @@ jobs:
             with:
                 branch: gh-pages
                 folder: build # The folder the action should deploy.
-                ssh-key: ${{ secrets.DEPLOY_KEY }}
